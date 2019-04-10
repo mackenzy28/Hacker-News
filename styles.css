@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.container {
+    padding: 50px;
+}
+
+#news-list {
+    border: 1px solid #ddd;
+}
+
+h1 {
+    margin: 0;
+    text-indent: 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #253138;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+details {
+    padding: 0 15px;
+    line-height: 35px;
+    background: #fff;
+    cursor: pointer;
+    color: #666;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+details:nth-child(odd) {
+    background: #ddd;
+}
+
+summary {
+    color: #222;
+    font-size: 14px;
+    font-style: normal;
+}
